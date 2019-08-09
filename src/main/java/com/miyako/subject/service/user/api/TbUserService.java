@@ -11,6 +11,8 @@ public interface TbUserService{
 
     public TbStudent selectById(Integer id);
 
+    public TbStudent selectOne(TbStudent tbStudent);
+
     public Integer insert(TbStudent tbStudent);
 
     public PageInfo<TbStudent> page(int pageNum, int pageSize);
