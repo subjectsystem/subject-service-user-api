@@ -16,4 +16,7 @@ public interface TbUserService{
     public Integer insert(TbStudent tbStudent);
 
     public PageInfo<TbStudent> page(int pageNum, int pageSize);
+
+
+    public TbStudent getByToken(String token);
 }
